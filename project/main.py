@@ -1,9 +1,7 @@
 import cv2
-import matplotlib.pyplot as plt
 import numpy as np
 from scipy import ndimage
 from scipy.spatial.distance import cdist
-import matplotlib.pyplot as plt
 import keras
 from keras.models import load_model
 from sklearn import preprocessing
