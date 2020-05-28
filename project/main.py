@@ -203,8 +203,8 @@ def main(argv):
                 
                 if index_to_char[detection][is_digit] == '=':
                     equation += ' ' + str(eval(equation[:-2]))
-                    print(equation)
-                    
+
+                print(equation)
                 is_digit = not is_digit
                 previous_detected = detection
                 
